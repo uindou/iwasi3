@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Kota.unity
+=======
+- path: Assets/Scenes/Akiyama.unity
+>>>>>>> 911ea60904061d34fbf602842265488e9a5bcccd
   isLoaded: 1
   isActive: 1
   isSubScene: 0

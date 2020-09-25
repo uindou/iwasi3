@@ -129,9 +129,6 @@ namespace VisualStudioEditor
                     case VisualStudioVersion.VisualStudio2017:
                         vsVersion = "15.0";
                         break;
-                    case VisualStudioVersion.VisualStudio2019:
-                        vsVersion = "16.0";
-                        break;
                     // VS 2015 and under are still installed in the registry
                     // using their project names
                     case VisualStudioVersion.VisualStudio2015:
@@ -211,9 +208,6 @@ namespace VisualStudioEditor
                     return true;
                 case 15:
                     vsVersion = VisualStudioVersion.VisualStudio2017;
-                    return true;
-                case 16:
-                    vsVersion = VisualStudioVersion.VisualStudio2019;
                     return true;
             }
 
