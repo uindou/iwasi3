@@ -19,8 +19,8 @@ public class meshChanger : MonoBehaviour
 
         for (int i = 0; i < vertices.Length; i++)
         {
-            if(Mathf.Abs(vertices[i].x + swell*Mathf.Sin(vertices[i].z/10) - center)<=radius){
-                float cos = Mathf.Abs(vertices[i].x + swell*Mathf.Sin(vertices[i].z / 10) - center)/radius;
+            if(Mathf.Abs(vertices[i].x + swell*Mathf.Sin(vertices[i].z*Mathf.PI/25) - center)<=radius){
+                float cos = Mathf.Abs(vertices[i].x + swell*Mathf.Sin(vertices[i].z*Mathf.PI/ 25) - center)/radius;
                 float sin = Mathf.Sqrt(1-Mathf.Pow(cos,2));
                 //知りたいのはsinθ
                 vertices[i].y -= sin*radius;
