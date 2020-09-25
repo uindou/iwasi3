@@ -8,6 +8,8 @@ public class IwashiController : MonoBehaviour
     private Vector3 moveDirection;
     public float rotateAngle;
     public float d_theta;
+    public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,9 @@ public class IwashiController : MonoBehaviour
         Vector3 currentPosition = this.transform.localPosition;
         Vector3 currentRotation = this.transform.localRotation.eulerAngles;
         float tempY;
+
+        // 前に移動
+        this.transform.localPosition += new Vector3(0, 0, speed);
 
         // オイラー角の範囲を[-180,180]に変換
         if (currentRotation.y <= 180f)
@@ -49,6 +54,7 @@ public class IwashiController : MonoBehaviour
         {
             tempY += tempY >= 0 ? -d_theta * Mathf.Abs(tempY*0.1f) : d_theta * Mathf.Abs(tempY*0.1f);
         }
+
 
         tempY = Mathf.Clamp(tempY, -rotateAngle, rotateAngle);
         currentRotation.y = tempY;
