@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Game
+=======
+  m_Title: Project
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +52,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 101
+=======
+  controlID: 81
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +234,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 110
+=======
+  controlID: 90
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +263,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 111
+=======
+  controlID: 91
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,7 +340,11 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\watak\Documents\iwasi3\iwasi2
+=======
+  m_LastProjectPath: C:\Users\my_ne\Documents\iwasi3\iwasi2
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -481,9 +501,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: c0360000
       m_LastClickedID: 14016
       m_ExpandedIDs: 60fbffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 60fbffffe4360000
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -596,9 +622,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
+<<<<<<< HEAD
     m_Target: 10
     speed: 2
     m_Value: 10
+=======
+    m_Target: 12.970712
+    speed: 2
+    m_Value: 12.970712
+>>>>>>> e7cb305ecb53f619fcc745b95a163888cbe395aa
   m_Ortho:
     m_Target: 0
     speed: 2
