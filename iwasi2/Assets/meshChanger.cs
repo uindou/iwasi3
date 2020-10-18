@@ -7,6 +7,7 @@ public class meshChanger : MonoBehaviour
 {
     public float radius;
     public float swell;
+    public float sharow;
     // Start is called before the first frame update
     void Awake()
     {
@@ -23,7 +24,7 @@ public class meshChanger : MonoBehaviour
                 float cos = Mathf.Abs(vertices[i].x + swell*Mathf.Sin(vertices[i].z*Mathf.PI/ 25) - center)/radius;
                 float sin = Mathf.Sqrt(1-Mathf.Pow(cos,2));
                 //知りたいのはsinθ
-                vertices[i].y -= sin*radius;
+                vertices[i].y -= sin*radius*sharow;
             }
         }
         for(int i=0;i<vertices.Length;i++){
