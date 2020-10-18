@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-Base path: 'D:/2020.1.1f1/Editor/Data', plugins path 'D:/2020.1.1f1/Editor/Data/PlaybackEngines'
-=======
 Base path: 'C:/Program Files/2020.1.1f1/Editor/Data', plugins path 'C:/Program Files/2020.1.1f1/Editor/Data/PlaybackEngines'
->>>>>>> 429a5a50baf34d91edfb9b0f7c95950cda849138
 Cmd: initializeCompiler
